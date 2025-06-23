@@ -39,32 +39,33 @@
       </p>
       <h2 align="center">🏆 Featured Projects</h2>
       <img src="https://raw.githubusercontent.com/Tristan-Russell/Tristan-Russell/main/assets/divider.svg" alt="divider" width="100%">
-      ### [Computer Graphics Basics](https://github.com/Tristan-Russell/computer-graphics-basics)
-      This repository contains Python scripts demonstrating fundamental 2D and 3D transformations. I created this to solidify my understanding of the linear algebra behind computer graphics by implementing it from scratch.
+      <h3><a href="https://github.com/Tristan-Russell/computer-graphics-basics">Computer Graphics Basics</a></h3>
+      <p>This repository contains Python scripts demonstrating fundamental 2D and 3D transformations. I created this to solidify my understanding of the linear algebra behind computer graphics by implementing it from scratch.
       <br/><br/>
-      **Key Features:** Interactive 2D/3D visualizations, clear implementation of homogeneous coordinates, and detailed mathematical explanations.
+      <b>Key Features:</b> Interactive 2D/3D visualizations, clear implementation of homogeneous coordinates, and detailed mathematical explanations.
       <br/>
-      **Tech Stack:** `Python`, `NumPy`, `Matplotlib`
+      <b>Tech Stack:</b> <code>Python</code>, <code>NumPy</code>, <code>Matplotlib</code></p>
       <img src="https://raw.githubusercontent.com/Tristan-Russell/Tristan-Russell/main/assets/divider.svg" alt="divider" width="100%">
-      ### [Basic Discord Bot](https://github.com/Tristan-Russell/basic-discord-bot)
-      A Python-based Discord bot for server interactions. This project was an exploration into asynchronous programming and working with third-party APIs.
+      <h3><a href="https://github.com/Tristan-Russell/basic-discord-bot">Basic Discord Bot</a></h3>
+      <p>A Python-based Discord bot for server interactions. This project was an exploration into asynchronous programming and working with third-party APIs.
       <br/><br/>
-      **Key Features:** Handles commands like `!ping`, `!roll`, and `!hello` using an asynchronous, event-driven architecture.
+      <b>Key Features:</b> Handles commands like <code>!ping</code>, <code>!roll</code>, and <code>!hello</code> using an asynchronous, event-driven architecture.
       <br/>
-      **Tech Stack:** `Python`, `Discord.py`
+      <b>Tech Stack:</b> <code>Python</code>, <code>Discord.py</code></p>
       <img src="https://raw.githubusercontent.com/Tristan-Russell/Tristan-Russell/main/assets/divider.svg" alt="divider" width="100%">
-      ### [WiFi QR Code Generator](https://github.com/Tristan-Russell/wifi-qr-generator)
-      This script solves a simple, everyday problem: sharing WiFi without having to type out a complex password. It generates a QR code that guests can scan to connect instantly.
+      <h3><a href="https://github.com/Tristan-Russell/wifi-qr-generator">WiFi QR Code Generator</a></h3>
+      <p>This script solves a simple, everyday problem: sharing WiFi without having to type out a complex password. It generates a QR code that guests can scan to connect instantly.
       <br/><br/>
-      **Challenge & Learning:** The main challenge was ensuring the generated QR payload was compliant with the standard format recognized by both Android and iOS devices. This reinforced the importance of cross-platform compatibility.
+      <b>Challenge & Learning:</b> The main challenge was ensuring the generated QR payload was compliant with the standard format recognized by both Android and iOS devices. This reinforced the importance of cross-platform compatibility.
       <br/>
-      **Tech Stack:** `Python`, `qrcode`
+      <b>Tech Stack:</b> <code>Python</code>, <code>qrcode</code></p>
       <p align="center">
         <img src="https://raw.githubusercontent.com/Tristan-Russell/Tristan-Russell/main/assets/footer.svg" alt="Footer" />
       </p>
     </td>
-    <td width="10%" valign="top">
+        <td width="10%" valign="top">
       <img src="https://raw.githubusercontent.com/Tristan-Russell/Tristan-Russell/main/assets/right-banner.svg" alt="Right Banner"/>
     </td>
+
   </tr>
 </table>
