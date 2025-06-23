@@ -1,0 +1,29 @@
+<svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="150" fill="#1a1b26"/>
+
+  <defs>
+    <linearGradient id="wave-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#7aa2f7">
+            <animate attributeName="stop-color" values="#7aa2f7; #bb9af7; #7aa2f7" dur="6s" repeatCount="indefinite"></animate>
+        </stop>
+        <stop offset="100%" stop-color="#bb9af7">
+            <animate attributeName="stop-color" values="#bb9af7; #7aa2f7; #bb9af7" dur="6s" repeatCount="indefinite"></animate>
+        </stop>
+    </linearGradient>
+  </defs>
+
+  <path fill="url(#wave-gradient)" opacity="0.6">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0,150 C200,50 350,180 800,100 L800,150 L0,150 Z;
+              M0,150 C250,80 400,120 800,100 L800,150 L0,150 Z;
+              M0,150 C200,50 350,180 800,100 L800,150 L0,150 Z"
+    />
+  </path>
+  <path fill="url(#wave-gradient)" opacity="0.4">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite"
+      values="M0,150 C150,120 300,50 800,120 L800,150 L0,150 Z;
+              M0,150 C200,80 450,150 800,120 L800,150 L0,150 Z;
+              M0,150 C150,120 300,50 800,120 L800,150 L0,150 Z"
+    />
+  </path>
+</svg>
