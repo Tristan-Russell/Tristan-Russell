@@ -1,13 +1,12 @@
-<svg width="60" height="350" viewBox="0 0 60 350" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="left-gradient" x1="50%" y1="0%" x2="50%" y2="100%">
-<stop offset="0%" stop-color="#a2d2ff">
-<animate attributeName="stop-color" values="#a2d2ff; #74c6ed; #a2d2ff" dur="6s" repeatCount="indefinite"></animate>
-</stop>
-<stop offset="100%" stop-color="#74c6ed">
-<animate attributeName="stop-color" values="#74c6ed; #a2d2ff; #74c6ed" dur="6s" repeatCount="indefinite"></animate>
-</stop>
-</linearGradient>
-</defs>
-<rect width="60" height="350" fill="url(#left-gradient)"/>
+<svg viewBox="0 0 80 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ocean" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7aa2f7"/>
+      <stop offset="100%" stop-color="#1a1b26"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="800" fill="#1a1b26"/>
+  <path fill="url(#ocean)" fill-opacity="0.7">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M 80 800 L 80 400 C 40 450, 40 350, 80 400 L 80 800 Z; M 80 800 L 80 450 C 20 500, 60 300, 80 450 L 80 800 Z; M 80 800 L 80 400 C 40 450, 40 350, 80 400 L 80 800 Z"/>
+  </path>
 </svg>
