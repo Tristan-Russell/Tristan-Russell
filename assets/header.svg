@@ -1,0 +1,61 @@
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="200" fill="#1a1b26"/>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&display=swap');
+
+    .name {
+      font-family: 'Fira Code', monospace;
+      font-size: 50px;
+      fill: #c0caf5;
+      animation: typing 3s steps(15), blink .5s step-end infinite alternate;
+      white-space: pre;
+      overflow: hidden;
+      border-right: 3px solid #7aa2f7;
+      width: 15ch; /* 15 characters for "Tristan Russell" */
+    }
+
+    .title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      fill: #7dcfff;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+      animation-delay: 3s; /* Starts after typing is done */
+    }
+    
+    .bracket {
+      font-family: 'Fira Code', monospace;
+      font-size: 80px;
+      fill: #414868;
+      animation: glow 3s infinite alternate;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    
+    @keyframes fadeIn {
+        to { opacity: 1; }
+    }
+    
+    @keyframes glow {
+        from { fill: #414868; text-shadow: none; }
+        to { fill: #7aa2f7; text-shadow: 0 0 10px #7aa2f7; }
+    }
+  </style>
+
+  <text x="30" y="120" class="bracket">[</text>
+  <text x="740" y="120" class="bracket">]</text>
+
+  <text x="110" y="100" class="name">Tristan Russell</text>
+  <text x="210" y="140" class="title">Full-Stack Software Developer</text>
+</svg>
