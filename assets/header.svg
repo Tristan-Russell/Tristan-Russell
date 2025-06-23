@@ -2,7 +2,6 @@
   <rect width="800" height="200" fill="#1a1b26"/>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&display=swap');
 
     .name {
       font-family: 'Fira Code', monospace;
