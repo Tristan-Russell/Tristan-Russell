@@ -57,6 +57,6 @@
   <text x="30" y="120" class="bracket">[</text>
   <text x="740" y="120" class="bracket">]</text>
 
-  <text x="110" y="100" class="name">Tristan Russell</text>
-  <text x="210" y="140" class="title">Full-Stack Software Developer</text>
+  <text x="200" y="100" class="name">Tristan Russell</text>
+  <text x="250" y="140" class="title">Full-Stack Software Developer</text>
 </svg>
